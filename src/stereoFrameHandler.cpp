@@ -29,6 +29,8 @@ void StereoFrameHandler::insertStereoPair(const Mat img_l_, const Mat img_r_ , c
 {
     curr_frame =  new StereoFrame( img_l_, img_r_, idx_, cam );
     curr_frame->extractStereoFeatures( llength_th, orb_fast_th );
+    // extractStereoFeatures >> detectStereoLineSegments >> detectLineFeatures >> matchStereoLines 执行了stereo_ls.push_back（我添加的）
+    // 所以stereo_ls是里面有内容，而且没有经过f2fTracking剔除
     f2fTracking();
 }
 
@@ -131,29 +133,17 @@ void StereoFrameHandler::matchF2FPoints()
 /// f2fTracking调用
 void StereoFrameHandler::matchF2FLines()
 {
-
-    /// line segments f2f tracking
     matched_ls.clear();
-    if( !Config::hasLines() || curr_frame->stereo_ls.empty() || prev_frame->stereo_ls.empty() )
+    if( !Config::hasLines() || curr_frame->stereo_ls.empty() )
         return;
 
-    std::vector<int> matches_12;
-    match(prev_frame->ldesc_l, curr_frame->ldesc_l, Config::minRatio12L(), matches_12);
+    std::vector<StVO::LineFeature *> &curr_lines = curr_frame->stereo_ls;
 
-    /// bucle around pmatches
-    for (int i1 = 0; i1 < matches_12.size(); ++i1) {
-        const int i2 = matches_12[i1];
-        if (i2 < 0) continue;
-
-        prev_frame->stereo_ls[i1]->sdisp_obs = curr_frame->stereo_ls[i2]->sdisp;///双目视差
-        prev_frame->stereo_ls[i1]->edisp_obs = curr_frame->stereo_ls[i2]->edisp;
-        prev_frame->stereo_ls[i1]->spl_obs   = curr_frame->stereo_ls[i2]->spl;///匹配到的点
-        prev_frame->stereo_ls[i1]->epl_obs   = curr_frame->stereo_ls[i2]->epl;
-        prev_frame->stereo_ls[i1]->le_obs    = curr_frame->stereo_ls[i2]->le;
-        prev_frame->stereo_ls[i1]->inlier    = true;
-        matched_ls.push_back( prev_frame->stereo_ls[i1]->safeCopy() );
-        curr_frame->stereo_ls[i2]->idx = prev_frame->stereo_ls[i1]->idx; /// 当前frame线段的索引=上一frame线段的索引
+    for(auto curr_line = curr_lines.begin(); curr_line != curr_lines.end(); ++curr_line)
+    {
+        matched_ls.push_back( (*curr_line)->safeCopy() );
     }
+
 }
 
 // 优化程序
@@ -168,7 +158,7 @@ bool StereoFrameHandler::isGoodSolution( Matrix4d DT, Matrix6d DTcov, double err
 
     if( DT_cov_eig(0)<0.0 || DT_cov_eig(5)>1.0 || err < 0.0 || err > 1.0 || !is_finite(DT) )
     {
-        cout << endl << DT_cov_eig(0) << "\t" << DT_cov_eig(5) << "\t" << err << endl;
+        //cout << endl << DT_cov_eig(0) << "\t" << DT_cov_eig(5) << "\t" << err << endl;
         return false;
     }
 

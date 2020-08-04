@@ -157,8 +157,8 @@ public:///全是public
     // TODO: l-lk参数
 
     //关键帧判断
-    int min_lines_num = 20;                  //关键帧中线段数量最小值
-    double min_total_length = 10.0;         //关键帧中线段总长最小值
+    int min_lines_num = 10;                  //关键帧中线段数量最小值
+    double min_total_length = 50.0;         //关键帧中线段总长最小值
     //Sampling
     int patch_size = 1;                     //采样间隔
     //FitLine
@@ -171,7 +171,7 @@ public:///全是public
     //RefineLine
     int Grow_px = 10;                       //线段生长的变化范围
     //NeedKeyframe
-    double min_length_all = 500;            //frame中所有line的最短总长
+    double min_length_all = 50;            //frame中所有line的最短总长
     double min_lines_num_track = 0.9;       //最小跟踪成功率（按照线段总长度）
     int max_track_count = 50;
 

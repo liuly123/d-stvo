@@ -59,10 +59,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo
+CMAKE_SOURCE_DIR = /home/liuly/stvo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/stvo_includes.dir
@@ -71,14 +71,14 @@ CMAKE_BINARY_DIR = /home/liuly/d-stvo/build
 CMakeFiles/stvo_includes.dir/all:
 	$(MAKE) -f CMakeFiles/stvo_includes.dir/build.make CMakeFiles/stvo_includes.dir/depend
 	$(MAKE) -f CMakeFiles/stvo_includes.dir/build.make CMakeFiles/stvo_includes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num= "Built target stvo_includes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num= "Built target stvo_includes"
 .PHONY : CMakeFiles/stvo_includes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stvo_includes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stvo_includes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 0
 .PHONY : CMakeFiles/stvo_includes.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/stvo_includes.dir/clean
 CMakeFiles/stvo.dir/all:
 	$(MAKE) -f CMakeFiles/stvo.dir/build.make CMakeFiles/stvo.dir/depend
 	$(MAKE) -f CMakeFiles/stvo.dir/build.make CMakeFiles/stvo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14 "Built target stvo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target stvo"
 .PHONY : CMakeFiles/stvo.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/stvo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stvo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stvo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 0
 .PHONY : CMakeFiles/stvo.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/stvo.dir/clean
 CMakeFiles/imagesStVO.dir/all: CMakeFiles/stvo.dir/all
 	$(MAKE) -f CMakeFiles/imagesStVO.dir/build.make CMakeFiles/imagesStVO.dir/depend
 	$(MAKE) -f CMakeFiles/imagesStVO.dir/build.make CMakeFiles/imagesStVO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=1,2 "Built target imagesStVO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=1,2 "Built target imagesStVO"
 .PHONY : CMakeFiles/imagesStVO.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/imagesStVO.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imagesStVO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imagesStVO.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 0
 .PHONY : CMakeFiles/imagesStVO.dir/rule
 
 # Convenience name for target.

@@ -11,7 +11,7 @@
 #include "timer.h"
 
 #define RESET   "\033[0m"
-#define RED     "\033[31m"/* Red */
+#define RED     "\033[32m"/* Green */
 
 using namespace StVO;
 
@@ -94,6 +94,10 @@ int main(int argc, char **argv)
             }
             else
             {
+                
+                #ifdef HAS_MRPT
+                scene.updateFrequency = true;
+                #endif
                 cout << RED << "KeyFrame" << endl << RESET;
                 StVO->insertStereoPair( img_l, img_r, frame_counter );//提取和匹配的方法
             }
@@ -107,7 +111,7 @@ int main(int argc, char **argv)
             cov_eig = StVO->curr_frame->DT_cov_eig;
 
             // 更新场景
-            #ifdef HAS_MRPT
+            #ifdef HAS_MRPT                                                                 //inliers少         ,matched多
             scene.setText(frame_counter,t1,StVO->n_inliers_pt,StVO->matched_pt.size(),StVO->n_inliers_ls,StVO->matched_ls.size());
             scene.setCov( cov );
             scene.setPose( T_inc );

@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo
+CMAKE_SOURCE_DIR = /home/liuly/stvo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles /home/liuly/d-stvo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles /home/liuly/stvo/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -365,6 +365,33 @@ src/pinholeStereoCamera.cpp.s:
 	$(MAKE) -f CMakeFiles/stvo.dir/build.make CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.s
 .PHONY : src/pinholeStereoCamera.cpp.s
 
+src/sceneRepresentation.o: src/sceneRepresentation.cpp.o
+
+.PHONY : src/sceneRepresentation.o
+
+# target to build an object file
+src/sceneRepresentation.cpp.o:
+	$(MAKE) -f CMakeFiles/stvo.dir/build.make CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o
+.PHONY : src/sceneRepresentation.cpp.o
+
+src/sceneRepresentation.i: src/sceneRepresentation.cpp.i
+
+.PHONY : src/sceneRepresentation.i
+
+# target to preprocess a source file
+src/sceneRepresentation.cpp.i:
+	$(MAKE) -f CMakeFiles/stvo.dir/build.make CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.i
+.PHONY : src/sceneRepresentation.cpp.i
+
+src/sceneRepresentation.s: src/sceneRepresentation.cpp.s
+
+.PHONY : src/sceneRepresentation.s
+
+# target to generate assembly for a file
+src/sceneRepresentation.cpp.s:
+	$(MAKE) -f CMakeFiles/stvo.dir/build.make CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.s
+.PHONY : src/sceneRepresentation.cpp.s
+
 src/stereoFeatures.o: src/stereoFeatures.cpp.o
 
 .PHONY : src/stereoFeatures.o
@@ -508,6 +535,9 @@ help:
 	@echo "... src/pinholeStereoCamera.o"
 	@echo "... src/pinholeStereoCamera.i"
 	@echo "... src/pinholeStereoCamera.s"
+	@echo "... src/sceneRepresentation.o"
+	@echo "... src/sceneRepresentation.i"
+	@echo "... src/sceneRepresentation.s"
 	@echo "... src/stereoFeatures.o"
 	@echo "... src/stereoFeatures.i"
 	@echo "... src/stereoFeatures.s"

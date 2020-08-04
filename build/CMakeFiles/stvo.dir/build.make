@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo
+CMAKE_SOURCE_DIR = /home/liuly/stvo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stvo.dir/depend.make
@@ -57,151 +57,165 @@ include CMakeFiles/stvo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stvo.dir/flags.make
 
+CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o: CMakeFiles/stvo.dir/flags.make
+CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o: ../src/sceneRepresentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o -c /home/liuly/stvo/src/sceneRepresentation.cpp
+
+CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.i"
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/sceneRepresentation.cpp > CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.i
+
+CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.s"
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/sceneRepresentation.cpp -o CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.s
+
 CMakeFiles/stvo.dir/src/auxiliar.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/auxiliar.cpp.o: ../src/auxiliar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stvo.dir/src/auxiliar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/auxiliar.cpp.o -c /home/liuly/d-stvo/src/auxiliar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stvo.dir/src/auxiliar.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/auxiliar.cpp.o -c /home/liuly/stvo/src/auxiliar.cpp
 
 CMakeFiles/stvo.dir/src/auxiliar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/auxiliar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/auxiliar.cpp > CMakeFiles/stvo.dir/src/auxiliar.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/auxiliar.cpp > CMakeFiles/stvo.dir/src/auxiliar.cpp.i
 
 CMakeFiles/stvo.dir/src/auxiliar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/auxiliar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/auxiliar.cpp -o CMakeFiles/stvo.dir/src/auxiliar.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/auxiliar.cpp -o CMakeFiles/stvo.dir/src/auxiliar.cpp.s
 
 CMakeFiles/stvo.dir/src/config.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/config.cpp.o: ../src/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stvo.dir/src/config.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/config.cpp.o -c /home/liuly/d-stvo/src/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stvo.dir/src/config.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/config.cpp.o -c /home/liuly/stvo/src/config.cpp
 
 CMakeFiles/stvo.dir/src/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/config.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/config.cpp > CMakeFiles/stvo.dir/src/config.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/config.cpp > CMakeFiles/stvo.dir/src/config.cpp.i
 
 CMakeFiles/stvo.dir/src/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/config.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/config.cpp -o CMakeFiles/stvo.dir/src/config.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/config.cpp -o CMakeFiles/stvo.dir/src/config.cpp.s
 
 CMakeFiles/stvo.dir/src/dataset.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/dataset.cpp.o: ../src/dataset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stvo.dir/src/dataset.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/dataset.cpp.o -c /home/liuly/d-stvo/src/dataset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stvo.dir/src/dataset.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/dataset.cpp.o -c /home/liuly/stvo/src/dataset.cpp
 
 CMakeFiles/stvo.dir/src/dataset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/dataset.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/dataset.cpp > CMakeFiles/stvo.dir/src/dataset.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/dataset.cpp > CMakeFiles/stvo.dir/src/dataset.cpp.i
 
 CMakeFiles/stvo.dir/src/dataset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/dataset.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/dataset.cpp -o CMakeFiles/stvo.dir/src/dataset.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/dataset.cpp -o CMakeFiles/stvo.dir/src/dataset.cpp.s
 
 CMakeFiles/stvo.dir/src/gridStructure.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/gridStructure.cpp.o: ../src/gridStructure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stvo.dir/src/gridStructure.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/gridStructure.cpp.o -c /home/liuly/d-stvo/src/gridStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/stvo.dir/src/gridStructure.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/gridStructure.cpp.o -c /home/liuly/stvo/src/gridStructure.cpp
 
 CMakeFiles/stvo.dir/src/gridStructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/gridStructure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/gridStructure.cpp > CMakeFiles/stvo.dir/src/gridStructure.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/gridStructure.cpp > CMakeFiles/stvo.dir/src/gridStructure.cpp.i
 
 CMakeFiles/stvo.dir/src/gridStructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/gridStructure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/gridStructure.cpp -o CMakeFiles/stvo.dir/src/gridStructure.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/gridStructure.cpp -o CMakeFiles/stvo.dir/src/gridStructure.cpp.s
 
 CMakeFiles/stvo.dir/src/lineIterator.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/lineIterator.cpp.o: ../src/lineIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/stvo.dir/src/lineIterator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/lineIterator.cpp.o -c /home/liuly/d-stvo/src/lineIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stvo.dir/src/lineIterator.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/lineIterator.cpp.o -c /home/liuly/stvo/src/lineIterator.cpp
 
 CMakeFiles/stvo.dir/src/lineIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/lineIterator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/lineIterator.cpp > CMakeFiles/stvo.dir/src/lineIterator.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/lineIterator.cpp > CMakeFiles/stvo.dir/src/lineIterator.cpp.i
 
 CMakeFiles/stvo.dir/src/lineIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/lineIterator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/lineIterator.cpp -o CMakeFiles/stvo.dir/src/lineIterator.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/lineIterator.cpp -o CMakeFiles/stvo.dir/src/lineIterator.cpp.s
 
 CMakeFiles/stvo.dir/src/matching.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/matching.cpp.o: ../src/matching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stvo.dir/src/matching.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/matching.cpp.o -c /home/liuly/d-stvo/src/matching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stvo.dir/src/matching.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/matching.cpp.o -c /home/liuly/stvo/src/matching.cpp
 
 CMakeFiles/stvo.dir/src/matching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/matching.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/matching.cpp > CMakeFiles/stvo.dir/src/matching.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/matching.cpp > CMakeFiles/stvo.dir/src/matching.cpp.i
 
 CMakeFiles/stvo.dir/src/matching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/matching.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/matching.cpp -o CMakeFiles/stvo.dir/src/matching.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/matching.cpp -o CMakeFiles/stvo.dir/src/matching.cpp.s
 
 CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.o: ../src/pinholeStereoCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.o -c /home/liuly/d-stvo/src/pinholeStereoCamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.o -c /home/liuly/stvo/src/pinholeStereoCamera.cpp
 
 CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/pinholeStereoCamera.cpp > CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/pinholeStereoCamera.cpp > CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.i
 
 CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/pinholeStereoCamera.cpp -o CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/pinholeStereoCamera.cpp -o CMakeFiles/stvo.dir/src/pinholeStereoCamera.cpp.s
 
 CMakeFiles/stvo.dir/src/stereoFeatures.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/stereoFeatures.cpp.o: ../src/stereoFeatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/stvo.dir/src/stereoFeatures.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/stereoFeatures.cpp.o -c /home/liuly/d-stvo/src/stereoFeatures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/stvo.dir/src/stereoFeatures.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/stereoFeatures.cpp.o -c /home/liuly/stvo/src/stereoFeatures.cpp
 
 CMakeFiles/stvo.dir/src/stereoFeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/stereoFeatures.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/stereoFeatures.cpp > CMakeFiles/stvo.dir/src/stereoFeatures.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/stereoFeatures.cpp > CMakeFiles/stvo.dir/src/stereoFeatures.cpp.i
 
 CMakeFiles/stvo.dir/src/stereoFeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/stereoFeatures.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/stereoFeatures.cpp -o CMakeFiles/stvo.dir/src/stereoFeatures.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/stereoFeatures.cpp -o CMakeFiles/stvo.dir/src/stereoFeatures.cpp.s
 
 CMakeFiles/stvo.dir/src/stereoFrame.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/stereoFrame.cpp.o: ../src/stereoFrame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/stvo.dir/src/stereoFrame.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/stereoFrame.cpp.o -c /home/liuly/d-stvo/src/stereoFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/stvo.dir/src/stereoFrame.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/stereoFrame.cpp.o -c /home/liuly/stvo/src/stereoFrame.cpp
 
 CMakeFiles/stvo.dir/src/stereoFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/stereoFrame.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/stereoFrame.cpp > CMakeFiles/stvo.dir/src/stereoFrame.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/stereoFrame.cpp > CMakeFiles/stvo.dir/src/stereoFrame.cpp.i
 
 CMakeFiles/stvo.dir/src/stereoFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/stereoFrame.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/stereoFrame.cpp -o CMakeFiles/stvo.dir/src/stereoFrame.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/stereoFrame.cpp -o CMakeFiles/stvo.dir/src/stereoFrame.cpp.s
 
 CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.o: ../src/stereoFrameHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.o -c /home/liuly/d-stvo/src/stereoFrameHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.o -c /home/liuly/stvo/src/stereoFrameHandler.cpp
 
 CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/stereoFrameHandler.cpp > CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/stereoFrameHandler.cpp > CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.i
 
 CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/stereoFrameHandler.cpp -o CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/stereoFrameHandler.cpp -o CMakeFiles/stvo.dir/src/stereoFrameHandler.cpp.s
 
 CMakeFiles/stvo.dir/src/timer.cpp.o: CMakeFiles/stvo.dir/flags.make
 CMakeFiles/stvo.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/stvo.dir/src/timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/timer.cpp.o -c /home/liuly/d-stvo/src/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/stvo.dir/src/timer.cpp.o"
+	/usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stvo.dir/src/timer.cpp.o -c /home/liuly/stvo/src/timer.cpp
 
 CMakeFiles/stvo.dir/src/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stvo.dir/src/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/src/timer.cpp > CMakeFiles/stvo.dir/src/timer.cpp.i
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/src/timer.cpp > CMakeFiles/stvo.dir/src/timer.cpp.i
 
 CMakeFiles/stvo.dir/src/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stvo.dir/src/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/src/timer.cpp -o CMakeFiles/stvo.dir/src/timer.cpp.s
+	/usr/bin/g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/src/timer.cpp -o CMakeFiles/stvo.dir/src/timer.cpp.s
 
 # Object files for target stvo
 stvo_OBJECTS = \
+"CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o" \
 "CMakeFiles/stvo.dir/src/auxiliar.cpp.o" \
 "CMakeFiles/stvo.dir/src/config.cpp.o" \
 "CMakeFiles/stvo.dir/src/dataset.cpp.o" \
@@ -217,6 +231,7 @@ stvo_OBJECTS = \
 # External object files for target stvo
 stvo_EXTERNAL_OBJECTS =
 
+../lib/libstvo.so: CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o
 ../lib/libstvo.so: CMakeFiles/stvo.dir/src/auxiliar.cpp.o
 ../lib/libstvo.so: CMakeFiles/stvo.dir/src/config.cpp.o
 ../lib/libstvo.so: CMakeFiles/stvo.dir/src/dataset.cpp.o
@@ -284,7 +299,7 @@ stvo_EXTERNAL_OBJECTS =
 ../lib/libstvo.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
 ../lib/libstvo.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 ../lib/libstvo.so: CMakeFiles/stvo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuly/d-stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library ../lib/libstvo.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuly/stvo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library ../lib/libstvo.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stvo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +312,6 @@ CMakeFiles/stvo.dir/clean:
 .PHONY : CMakeFiles/stvo.dir/clean
 
 CMakeFiles/stvo.dir/depend:
-	cd /home/liuly/d-stvo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/d-stvo /home/liuly/d-stvo /home/liuly/d-stvo/build /home/liuly/d-stvo/build /home/liuly/d-stvo/build/CMakeFiles/stvo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liuly/stvo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/stvo /home/liuly/stvo /home/liuly/stvo/build /home/liuly/stvo/build /home/liuly/stvo/build/CMakeFiles/stvo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stvo.dir/depend
 

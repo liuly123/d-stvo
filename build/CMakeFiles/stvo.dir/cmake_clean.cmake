@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/stvo.dir/src/sceneRepresentation.cpp.o"
   "CMakeFiles/stvo.dir/src/auxiliar.cpp.o"
   "CMakeFiles/stvo.dir/src/config.cpp.o"
   "CMakeFiles/stvo.dir/src/dataset.cpp.o"

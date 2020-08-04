@@ -59,10 +59,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor
+CMAKE_SOURCE_DIR = /home/liuly/stvo/3rdparty/line_descriptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/3rdparty/line_descriptor/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/linedesc.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor/build
 CMakeFiles/linedesc.dir/all:
 	$(MAKE) -f CMakeFiles/linedesc.dir/build.make CMakeFiles/linedesc.dir/depend
 	$(MAKE) -f CMakeFiles/linedesc.dir/build.make CMakeFiles/linedesc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target linedesc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target linedesc"
 .PHONY : CMakeFiles/linedesc.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/linedesc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/linedesc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linedesc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles 0
 .PHONY : CMakeFiles/linedesc.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ clean: CMakeFiles/linedesc.dir/clean
 CMakeFiles/linedesc_includes.dir/all:
 	$(MAKE) -f CMakeFiles/linedesc_includes.dir/build.make CMakeFiles/linedesc_includes.dir/depend
 	$(MAKE) -f CMakeFiles/linedesc_includes.dir/build.make CMakeFiles/linedesc_includes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num= "Built target linedesc_includes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num= "Built target linedesc_includes"
 .PHONY : CMakeFiles/linedesc_includes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/linedesc_includes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linedesc_includes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles 0
 .PHONY : CMakeFiles/linedesc_includes.dir/rule
 
 # Convenience name for target.

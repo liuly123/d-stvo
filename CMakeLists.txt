@@ -1,4 +1,4 @@
-project( d-stvo )
+project( stvo-pl )
 
 #SET(CMAKE_BUILD_TYPE "Release")
 cmake_minimum_required(VERSION 2.7)
@@ -11,7 +11,7 @@ endif(COMMAND cmake_policy)
 link_directories(${OpenCV_LIBS_DIR})
 include_directories(${OpenCV2_INCLUDE_DIRS})
 
-set(DEFAULT_HAS_MRPT OFF)
+set(DEFAULT_HAS_MRPT ON)
 set(HAS_MRPT ${DEFAULT_HAS_MRPT} CACHE BOOL "Build the PointGrey Bumblebee2 SVO application that employs the MRPT library")
 
 SET(BUILD_SHARED_LIBS ON)
@@ -72,13 +72,13 @@ list(APPEND SOURCEFILES
   src/timer.cpp
 )
 
-# List all files (headers) contained by d-stvo library
+# List all files (headers) contained by StVO-PL library
 file(GLOB_RECURSE all_include_files RELATIVE "${CMAKE_SOURCE_DIR}" *.h *.hpp)
 
 # Visualize the files of this directory in IDE creating an custom empty target
 add_custom_target( stvo_includes DEPENDS ${all_include_files} SOURCES ${all_include_files} )
 
-# Create d-stvo library
+# Create StVO-PL library
 add_library(stvo SHARED ${SOURCEFILES})
 
 if(HAS_MRPT)

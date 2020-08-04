@@ -1,5 +1,5 @@
-/home/liuly/d-stvo/build/CMakeFiles/stvo_includes.dir
-/home/liuly/d-stvo/build/CMakeFiles/edit_cache.dir
-/home/liuly/d-stvo/build/CMakeFiles/stvo.dir
-/home/liuly/d-stvo/build/CMakeFiles/rebuild_cache.dir
-/home/liuly/d-stvo/build/CMakeFiles/imagesStVO.dir
+/home/liuly/stvo/build/CMakeFiles/stvo_includes.dir
+/home/liuly/stvo/build/CMakeFiles/edit_cache.dir
+/home/liuly/stvo/build/CMakeFiles/stvo.dir
+/home/liuly/stvo/build/CMakeFiles/rebuild_cache.dir
+/home/liuly/stvo/build/CMakeFiles/imagesStVO.dir

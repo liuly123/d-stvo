@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++0x -O3 -mtune=native -march=native -fPIC
 
 CXX_DEFINES = -Dlinedesc_EXPORTS
 
-CXX_INCLUDES = -I/home/liuly/d-stvo/3rdparty/line_descriptor/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
+CXX_INCLUDES = -I/home/liuly/stvo/3rdparty/line_descriptor/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
 

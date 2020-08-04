@@ -321,6 +321,7 @@ bool sceneRepresentation::updateScene(){
         win->addTextMessage(0.85,0.95, text, TColorf(.0,.0,.0), 0, mrpt::opengl::MRPT_GLUT_BITMAP_HELVETICA_10 );
     }
 
+
     /// 更新协方差
     if(hasCov){
         elliObj->setPose(pose+ellPose);
@@ -560,8 +561,19 @@ bool sceneRepresentation::updateScene(list<PointFeature*> matched_pt, list<LineF
     }
 
     /// 更新文本
-    if(hasText){
-        string text = "Frame: \t \t" + to_string(frame) + " \n" + "Frequency: \t" + to_string_with_precision(1000.f/time,4) + " Hz \n" + "Lines:  \t" + to_string(nLines) + " (" + to_string(nLinesH) + ") \nPoints: \t" + to_string(nPoints) + " (" + to_string(nPointsH) + ")";
+    if(hasText)
+    {
+        Time += time;
+        ++FrameNum;
+        if(updateFrequency = true)
+        {
+           FrameRate = 1000.f*FrameNum/Time;
+           updateFrequency = false;
+        }
+        string text = "Frame: \t \t" + to_string(frame) + " \n"
+          + "Frequency: \t" + to_string_with_precision(FrameRate,4) + " Hz \n"
+          + "Lines:  \t" + to_string(nLines) + " (" + to_string(nLinesH) + ") \n"
+          + "Points: \t" + to_string(nPoints) + " (" + to_string(nPointsH) + ")";
         win->addTextMessage(0.85,0.95, text, TColorf(.0,.0,.0), 0, mrpt::opengl::MRPT_GLUT_BITMAP_HELVETICA_10 );
     }
 

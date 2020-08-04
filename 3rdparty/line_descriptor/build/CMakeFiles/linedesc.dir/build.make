@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor
+CMAKE_SOURCE_DIR = /home/liuly/stvo/3rdparty/line_descriptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/3rdparty/line_descriptor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/linedesc.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/linedesc.dir/flags.make
 
 CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/linedesc.dir/flags.make
 CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp > CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp > CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
 CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp -o CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp -o CMakeFiles/linedesc.dir/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.o: CMakeFiles/linedesc.dir/flags.make
 CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.o: ../src/LSDDetector_custom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.o -c /home/liuly/d-stvo/3rdparty/line_descriptor/src/LSDDetector_custom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.o -c /home/liuly/stvo/3rdparty/line_descriptor/src/LSDDetector_custom.cpp
 
 CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/3rdparty/line_descriptor/src/LSDDetector_custom.cpp > CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/3rdparty/line_descriptor/src/LSDDetector_custom.cpp > CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.i
 
 CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/3rdparty/line_descriptor/src/LSDDetector_custom.cpp -o CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/3rdparty/line_descriptor/src/LSDDetector_custom.cpp -o CMakeFiles/linedesc.dir/src/LSDDetector_custom.cpp.s
 
 CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.o: CMakeFiles/linedesc.dir/flags.make
 CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.o: ../src/binary_descriptor_custom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.o -c /home/liuly/d-stvo/3rdparty/line_descriptor/src/binary_descriptor_custom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.o -c /home/liuly/stvo/3rdparty/line_descriptor/src/binary_descriptor_custom.cpp
 
 CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/3rdparty/line_descriptor/src/binary_descriptor_custom.cpp > CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/3rdparty/line_descriptor/src/binary_descriptor_custom.cpp > CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.i
 
 CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/3rdparty/line_descriptor/src/binary_descriptor_custom.cpp -o CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/3rdparty/line_descriptor/src/binary_descriptor_custom.cpp -o CMakeFiles/linedesc.dir/src/binary_descriptor_custom.cpp.s
 
 CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.o: CMakeFiles/linedesc.dir/flags.make
 CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.o: ../src/binary_descriptor_matcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.o -c /home/liuly/d-stvo/3rdparty/line_descriptor/src/binary_descriptor_matcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.o -c /home/liuly/stvo/3rdparty/line_descriptor/src/binary_descriptor_matcher.cpp
 
 CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/3rdparty/line_descriptor/src/binary_descriptor_matcher.cpp > CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/3rdparty/line_descriptor/src/binary_descriptor_matcher.cpp > CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.i
 
 CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/3rdparty/line_descriptor/src/binary_descriptor_matcher.cpp -o CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/3rdparty/line_descriptor/src/binary_descriptor_matcher.cpp -o CMakeFiles/linedesc.dir/src/binary_descriptor_matcher.cpp.s
 
 CMakeFiles/linedesc.dir/src/draw_custom.cpp.o: CMakeFiles/linedesc.dir/flags.make
 CMakeFiles/linedesc.dir/src/draw_custom.cpp.o: ../src/draw_custom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/linedesc.dir/src/draw_custom.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/draw_custom.cpp.o -c /home/liuly/d-stvo/3rdparty/line_descriptor/src/draw_custom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/linedesc.dir/src/draw_custom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linedesc.dir/src/draw_custom.cpp.o -c /home/liuly/stvo/3rdparty/line_descriptor/src/draw_custom.cpp
 
 CMakeFiles/linedesc.dir/src/draw_custom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linedesc.dir/src/draw_custom.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/d-stvo/3rdparty/line_descriptor/src/draw_custom.cpp > CMakeFiles/linedesc.dir/src/draw_custom.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuly/stvo/3rdparty/line_descriptor/src/draw_custom.cpp > CMakeFiles/linedesc.dir/src/draw_custom.cpp.i
 
 CMakeFiles/linedesc.dir/src/draw_custom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linedesc.dir/src/draw_custom.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/d-stvo/3rdparty/line_descriptor/src/draw_custom.cpp -o CMakeFiles/linedesc.dir/src/draw_custom.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuly/stvo/3rdparty/line_descriptor/src/draw_custom.cpp -o CMakeFiles/linedesc.dir/src/draw_custom.cpp.s
 
 # Object files for target linedesc
 linedesc_OBJECTS = \
@@ -185,7 +185,7 @@ linedesc_EXTERNAL_OBJECTS =
 ../lib/liblinedesc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
 ../lib/liblinedesc.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 ../lib/liblinedesc.so: CMakeFiles/linedesc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library ../lib/liblinedesc.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library ../lib/liblinedesc.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linedesc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +198,6 @@ CMakeFiles/linedesc.dir/clean:
 .PHONY : CMakeFiles/linedesc.dir/clean
 
 CMakeFiles/linedesc.dir/depend:
-	cd /home/liuly/d-stvo/3rdparty/line_descriptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/d-stvo/3rdparty/line_descriptor /home/liuly/d-stvo/3rdparty/line_descriptor /home/liuly/d-stvo/3rdparty/line_descriptor/build /home/liuly/d-stvo/3rdparty/line_descriptor/build /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles/linedesc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liuly/stvo/3rdparty/line_descriptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/stvo/3rdparty/line_descriptor /home/liuly/stvo/3rdparty/line_descriptor /home/liuly/stvo/3rdparty/line_descriptor/build /home/liuly/stvo/3rdparty/line_descriptor/build /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles/linedesc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/linedesc.dir/depend
 

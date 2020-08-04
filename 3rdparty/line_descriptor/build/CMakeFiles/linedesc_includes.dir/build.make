@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor
+CMAKE_SOURCE_DIR = /home/liuly/stvo/3rdparty/line_descriptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/3rdparty/line_descriptor/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/3rdparty/line_descriptor/build
 
 # Utility rule file for linedesc_includes.
 
@@ -76,6 +76,6 @@ CMakeFiles/linedesc_includes.dir/clean:
 .PHONY : CMakeFiles/linedesc_includes.dir/clean
 
 CMakeFiles/linedesc_includes.dir/depend:
-	cd /home/liuly/d-stvo/3rdparty/line_descriptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/d-stvo/3rdparty/line_descriptor /home/liuly/d-stvo/3rdparty/line_descriptor /home/liuly/d-stvo/3rdparty/line_descriptor/build /home/liuly/d-stvo/3rdparty/line_descriptor/build /home/liuly/d-stvo/3rdparty/line_descriptor/build/CMakeFiles/linedesc_includes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liuly/stvo/3rdparty/line_descriptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/stvo/3rdparty/line_descriptor /home/liuly/stvo/3rdparty/line_descriptor /home/liuly/stvo/3rdparty/line_descriptor/build /home/liuly/stvo/3rdparty/line_descriptor/build /home/liuly/stvo/3rdparty/line_descriptor/build/CMakeFiles/linedesc_includes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/linedesc_includes.dir/depend
 

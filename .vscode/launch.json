@@ -1,0 +1,57 @@
+{
+    // lanuch.json文件用于debug，F5运行的文件
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/build/imagesStVO",
+            //"args": ["mav0", "-c", "../config/config/config_euroc.yaml", "-o", "10", "-s", "1", "-n", "1000"],
+            "args": ["00", "-c", "../config/config/config_kitti.yaml"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [{
+                "Name":  "DATASETS_DIR",
+                "Value": "/mnt/hgfs/dataset/KITTI/data_odometry_gray",
+                }],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "ReBuild",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "rebuild",
+            "program": "${workspaceFolder}/build/imagesStVO",
+            //"args": ["mav0", "-c", "../config/config/config_euroc.yaml", "-o", "10", "-s", "1", "-n", "1000"],
+            "args": ["00", "-c", "../config/config/config_kitti.yaml"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [{
+                "Name":  "DATASETS_DIR",
+                "Value": "/mnt/hgfs/dataset/KITTI/data_odometry_gray",
+                }],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

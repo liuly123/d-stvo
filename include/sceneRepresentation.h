@@ -66,6 +66,9 @@ public:
     bool getYPR(float &yaw, float &pitch, float &roll);
     bool getPose(Matrix4d &T);
 
+    //用于更新requency
+    bool updateFrequency = false;
+
 private:
 
     CMatrixDouble getPoseFormat(Matrix4d T);
@@ -104,6 +107,11 @@ private:
     float           b, sigmaP, sigmaL, f, cx, cy, bsigmaL, bsigmaP;
 
     cv::Size img_sz;
+
+    //用于更新requency
+    int FrameNum = 0;
+    float Time = 0;
+    float FrameRate = 0;
 
 };
 

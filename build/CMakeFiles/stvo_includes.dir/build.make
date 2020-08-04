@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liuly/d-stvo
+CMAKE_SOURCE_DIR = /home/liuly/stvo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liuly/d-stvo/build
+CMAKE_BINARY_DIR = /home/liuly/stvo/build
 
 # Utility rule file for stvo_includes.
 
@@ -88,6 +88,6 @@ CMakeFiles/stvo_includes.dir/clean:
 .PHONY : CMakeFiles/stvo_includes.dir/clean
 
 CMakeFiles/stvo_includes.dir/depend:
-	cd /home/liuly/d-stvo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/d-stvo /home/liuly/d-stvo /home/liuly/d-stvo/build /home/liuly/d-stvo/build /home/liuly/d-stvo/build/CMakeFiles/stvo_includes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liuly/stvo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liuly/stvo /home/liuly/stvo /home/liuly/stvo/build /home/liuly/stvo/build /home/liuly/stvo/build/CMakeFiles/stvo_includes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stvo_includes.dir/depend
 

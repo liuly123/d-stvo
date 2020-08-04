@@ -1,0 +1,6 @@
+{
+    "workbench.editor.enablePreview": false,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

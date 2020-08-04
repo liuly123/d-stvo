@@ -116,6 +116,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.14/Modules/Platform/Linux-GNU.cmake"
   "/usr/local/share/cmake-3.14/Modules/Platform/Linux.cmake"
   "/usr/local/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
+  "/usr/local/share/mrpt/MRPTConfig-version.cmake"
+  "/usr/local/share/mrpt/MRPTConfig.cmake"
   )
 
 # The corresponding makefile is:

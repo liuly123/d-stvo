@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stvo-pl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imagesStVO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imagesStVO-25916ba2c4b78af23b48.json",
+					"name" : "imagesStVO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stvo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stvo-eeef202e7fa4b4cc7aa0.json",
+					"name" : "stvo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stvo_includes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stvo_includes-5d56355a00aaaad10cc7.json",
+					"name" : "stvo_includes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liuly/stvo/build",
+		"source" : "/home/liuly/stvo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
